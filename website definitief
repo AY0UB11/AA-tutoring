@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AA Tutoring</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff1493;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #e0115f;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #ff1493;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        .pricing {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AA Tutoring</h1>
+    <p>Uw partner in educatie en persoonlijke groei</p>
+</header>
+
+<nav>
+    <a href="#cito">CITO Trainingen</a>
+    <a href="#bijles">Bijlessen</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="cito">
+    <h2>CITO Trainingen</h2>
+    <p>Bij AA Tutoring bieden we gespecialiseerde CITO-trainingen aan op de volgende dagen:</p>
+    <ul>
+        <li>Maandag</li>
+        <li>Dinsdag</li>
+        <li>Zondag</li>
+    </ul>
+</div>
+
+<div class="container" id="bijles">
+    <h2>Bijlessen voor Middelbare Scholieren</h2>
+    <p>Onze bijlessen zijn beschikbaar op de volgende dagen:</p>
+    <ul>
+        <li>Woensdag</li>
+        <li>Donderdag</li>
+        <li>Zaterdag</li>
+    </ul>
+    <h3>VMBO</h3>
+    <p>Voor VMBO-leerlingen bieden we bijlessen aan voor alle leerjaren.</p>
+    <h3>HAVO en VWO</h3>
+    <p>Voor HAVO- en VWO-leerlingen bieden we bijlessen aan voor de onderbouw.</p>
+    <h3>Beschikbare Vakken</h3>
+    <ul>
+        <li>Scheikunde</li>
+        <li>Wiskunde</li>
+        <li>Engels</li>
+    </ul>
+    <p class="pricing">Prijs: €15 per uur per leerling</p>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact</h2>
+    <p>Heeft u vragen of wilt u zich aanmelden voor een training of bijles? Neem contact met ons op via:</p>
+    <p>Email: <a href="mailto:info@aatutoring.nl">info@aatutoring.nl</a></p>
+    <p>Telefoon: 06-12345678</p>
+</div>
+
+</body>
+</html>
